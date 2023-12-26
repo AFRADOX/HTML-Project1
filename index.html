@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        .container {
+            width: 250px;
+            height: 350px;
+            background-color: green;
+            border-radius: 12px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        .title {
+            background-color: rgb(104, 100, 100); 
+            border-radius: inherit; 
+            padding: 10px;           
+            font-size :20px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .image{
+            width: 98%;
+            height: 60%;
+            object-fit: cover;
+            border-radius: 60%;
+            text-align: center;
+            margin-top: 10px;
+            
+        }
+        .text-bar{
+            height: 5%;
+            width: 53%;
+            background-color:white;
+            padding: 10px; 
+             transform: translate(29%);
+             display: flex;
+             justify-content: space-between;
+             position: relative;
+             
+            
+           
+                
+        }
+        button{
+            font-size: 10px;
+            width: 25px;
+            height: 35px;
+            text-align:center;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        #plus {
+            color: green;
+            left:0px;
+        
+        }
+
+        #minus {
+            color: red;
+            right:0px;
+        }
+        .Add{
+
+           border-radius: inherit;
+            width: 150px;
+            height: 33px;
+            margin-top: 8px;
+            color: black;
+            font-weight:;
+            font-size: 20px;
+            text-align:center;
+            background-color: yellow;
+            transform: translate(30%);
+            border: 2px solid black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        
+        <div class="title">Black Formal</div>
+        <img class="image" src="shoe1.jpg"alt="">
+        <div class="text-bar">
+            <button id="plus">+</button>
+            <button id="minus">-</button>
+            
+        </div> 
+       
+           <div class="Add">Add to Cart</div>
+        
+    
+    </div>
+</body>
+</html>
