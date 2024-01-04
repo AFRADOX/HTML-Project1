@@ -1,0 +1,156 @@
+ .parent {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+
+ }
+
+ .container {
+     width: 660px;
+     height: 400px;
+     background-color: rgb(242, 126, 126);
+
+
+ }
+
+ .title-container {
+     background-color: brown;
+     height: 20%;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+
+ }
+
+ .pannel-container {
+     height: 70%;
+     background-color: aquamarine;
+     display: flex;
+     gap: 10px;
+
+ }
+
+ .left-pannel {
+     height: 100%;
+     background-color: aqua;
+     width: 50%;
+
+ }
+
+ .right-pannel {
+     height: 100%;
+     background-color: bisque;
+     width: 50%;
+     
+    
+ }
+
+ h1 {
+     margin: 0;
+     font-size: 30px;
+ }
+/* css for left pannel content  */
+ .left-pannel>p {
+     align-items: right;
+     display: flex;
+     padding: 10px;
+     justify-content: center;
+     font-size: 15px;
+ }
+
+ .google-icon {
+     width: 20px;
+     height: 20px;
+     margin-right: 5px;
+ 
+ }
+
+ .facebook {
+     width: 20px;
+     height: 20px;
+     margin-right: 5px;
+
+ }
+
+ .google-button {
+     display: flex;
+     justify-content: left;
+     margin-left: 10px;
+     margin-bottom: 10px;
+     cursor: pointer;
+     width: 250px;
+ }
+
+ .facebook-button {
+     display: flex;
+     justify-content: left;    
+     margin-left: 10px;
+     margin-top: 10px;
+     cursor: pointer;
+     width: 250px;
+ }
+/* Css for right pannel content */
+.right-pannel h2 {
+    margin-left: 10px; /* Adjust the value as needed */
+}
+.right-pannel label{
+    display: inline;
+    margin: bottom 5px;
+    margin-left: 10px;
+
+}
+.right-pannel input[type="email"] {
+    display: block;
+    width: 95%; /* Ensures the input takes up the full width */
+    box-sizing: border-box; /* Includes padding and border in the total width */
+    margin-bottom: 10px;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+.right-pannel input[type="password"] {
+    display: block;
+    width: 95%; /* Ensures the input takes up the full width */
+    box-sizing: border-box; /* Includes padding and border in the total width */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    margin-left: 10px;
+}
+.right-pannel .login-button {
+    margin-left: auto; /* Move to the right side */
+   order: 1;/* Ensure it comes after other elements */
+}
+.login-button{
+    display: flex;    
+    margin-top: -30px;
+    background-color:lightskyblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.left-pannel.language-text {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #555; /* Adjust text color as needed */
+    margin-top: 10px; /* Adjust margin-top as needed */
+}
+.left-pannel .language-text {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #555; /* Adjust text color as needed */
+    margin-top: 10px;
+    margin-left: 260px;
+    color: darkblue; /* Adjust margin-top as needed */
+}
+.right-pannel .language-text {
+    font-size: 16px; /* Adjust font size as needed */
+    color: darkblue; /* Adjust text color as needed */
+   /* Adjust margin-top as needed */
+}
+footer {
+    text-align: center; /* Adjust margin-top as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #141111; 
+    /* Adjust text color as needed */
+}
+
+
+
